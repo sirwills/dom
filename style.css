@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#cart {
+    /* max-width: 600px; */
+    margin: 0 50px;
+    padding: 20px;
+  }
+  
+  #cart h1 {
+    text-align: center;
+  }
+  
+  .item {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .item img {
+    width: 200px;
+    /* height: 100px; */
+    margin-right: 20px;
+  }
+
+  .carousel-item img{
+    width: 150px;
+    /* margin-right: 20px; */
+  }
+  
+  .item h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    
+  }
+  
+  .item p {
+    margin-top: 0;
+    /* color: blue; */
+    /* font-weight: 600; */
+    font-size: 25px;
+  }
+  
+.functions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+  
+  
+  /* .like {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .like .liked {
+    color: red;
+  } */
+  
+  #total {
+    text-align:center;
+    margin-top: 50px;
+    color:red;
+    margin-bottom: 50px;
+  }
+  
+  #total-price {
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+    font-size: 25px;
+  }
+  
+
+
+  .like-button {
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .like-icon {
+    font-size: 40px;
+  }
+  
+  .like-button.liked .like-icon {
+    color: red;
+  }
+  
+  .like-button.liked .like-text {
+    color: red;
+  }
+  
+  .delete{
+    font-size: 40px;
+  }
+
+  .increase{
+    font-size: 40px;
+  }
+  .number{
+    font-size: 40px;
+  }
+
+  .decrease{
+    font-size: 40px;
+  }
+
+  .quantity-input{
+    width: 50px;
+  }
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #262626;
+    font-weight: 500;
+    color: white;
+    /* position: fixed; */
+}
+
+.footer span{
+    margin-right: 10px;
+}
+
+.git{
+    color: #ff004f;
+}
